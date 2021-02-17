@@ -9,60 +9,60 @@ until [ "$pass" = "$paku" ]
 do
 clear
 sleep 2
-echo "$merah            ____________"
-echo "           |            |"
-echo "           |            |"
-echo "           |            |"
-echo "   ________|$putih============$merah|________"
-echo "  |______________________________|"
-echo "          | ____   ____  |"
-echo "          |  $merah()     ()   $putih|"
-echo "          |      ||      |"
-echo "          |   ..     ..  |"
-echo "          |     $merah----- $putih   |"
-echo "           ==============" $merah
-echo "     ____________"
+echo "$merah ____________"
+echo " | |"
+echo " | |"
+echo " | |"
+echo " ________|$putih============$merah|________"
+echo " |______________________________|"
+echo " | ____ ____ |"
+echo " | $merah() () $putih|"
+echo " | || |"
+echo " | .. .. |"
+echo " | $merah----- $putih |"
+echo " ==============" $merah
+echo " ____________"
 echo " ___| Ferramenta By __| " $putih
-echo "|  TrashDk__|"
+echo "| TrashDk__|"
 echo "|__________| $merah"
-echo "                     _______________"
-echo "                    | Último login  |"
-echo "                     ^^^^^^^^^^^^^^^"
+echo " _______________"
+echo " | Último login |"
+echo " ^^^^^^^^^^^^^^^"
 read -p "insira a senha da ferramenta dnv pfv : " pass
 echo "Por favor espere um momento....."
 sleep 3
 done
 clear
 sleep 2
-echo "$merah            ____________"
-echo "           |            |"
-echo "           |            |"
-echo "           |            |"
-echo "   ________|$putih============$merah|________"
-echo "  |______________________________|"
-echo "          | ____   ____  |"
-echo "          |  $merah()     ()   $putih|"
-echo "          |      ||      |"
-echo "          |   ..     ..  |"
-echo "          |     $merah----- $putih   |"
-echo "           ==============" $merah
-echo "     ____________"
+echo "$merah ____________"
+echo " | |"
+echo " | |"
+echo " | |"
+echo " ________|$putih============$merah|________"
+echo " |______________________________|"
+echo " | ____ ____ |"
+echo " | $merah() () $putih|"
+echo " | || |"
+echo " | .. .. |"
+echo " | $merah----- $putih |"
+echo " ==============" $merah
+echo " ____________"
 echo " ___| Ferramenta By __| " $putih
-echo "|  TrashDk__|"
+echo "| TrashDk__|"
 echo "|__________|"
 echo "$hijau"
-echo "     ______         ______"
-echo "    |      | TrashDkbot |      |"
-echo "     |___________________|" $kuning
+echo " ______ ______"
+echo " | | TrashDkbot | |"
+echo " |___________________|" $kuning
 echo " Nota : $putih Com esta ferramenta, você"
-echo "         pode fazer o bot Whatsapp facilmente,"
-echo "          sem o incômodo, de colocar comandos"
+echo " pode fazer o bot Whatsapp facilmente,"
+echo " sem o incômodo, de colocar comandos"
 read -p "Você quer continuar?[y/n] " lanjut
 if [ "$lanjut" = "n" ]
 then
 sleep 2
-echo "ok mano ,a instalação do bot pode ser feita em outro"
-echo "hoje tenha uma boa atividade mano....."
+echo "ok mana, a instalação do bot pode ser feita em outro"
+echo "hoje tenha uma boa atividade mana....."
 sleep 3
 elif [ "$lanjut" = "y" ]
 then
@@ -71,14 +71,14 @@ echo "Por favor espere um momento....."
 sleep 4
 clear
 sleep 2
-echo "          $merah   instalando o TrashDkbot"
+echo " $merah instalando o darkbot"
 sleep 2
 cd $HOME
 pkg update && pkg upgrade
 pkg install git
 pkg install wget
 git clone https://github.com/Dakauann/VERIFICAR
-cd kp
+cd VERIFICAR
 pkg install unzip
 pkg install nodejs
 pkg inatall ffmpeg
