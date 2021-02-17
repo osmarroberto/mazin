@@ -79,6 +79,7 @@ pkg install git
 pkg install wget
 git clone https://github.com/Dakauann/VERIFICAR
 cd VERIFICAR
+cd kp
 pkg install unzip
 pkg install nodejs
 pkg inatall ffmpeg
