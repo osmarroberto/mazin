@@ -4,7 +4,7 @@ hijau="\033[1;32m"
 putih="\033[1;37m"
 biru="\033[0;34m"
 kuning="\033[1;33m"
-paku="darkzin"
+paku="trash"
 until [ "$pass" = "$paku" ]
 do
 clear
@@ -23,7 +23,7 @@ echo "          |     $merah----- $putih   |"
 echo "           ==============" $merah
 echo "     ____________"
 echo " ___| Ferramenta By __| " $putih
-echo "|  Dark Yt__|"
+echo "|  TrashDk__|"
 echo "|__________| $merah"
 echo "                     _______________"
 echo "                    | Último login  |"
@@ -48,11 +48,11 @@ echo "          |     $merah----- $putih   |"
 echo "           ==============" $merah
 echo "     ____________"
 echo " ___| Ferramenta By __| " $putih
-echo "|  Dark Yt__|"
+echo "|  TrashDk__|"
 echo "|__________|"
 echo "$hijau"
 echo "     ______         ______"
-echo "    |      | Darkbot |      |"
+echo "    |      | TrashDkbot |      |"
 echo "     |___________________|" $kuning
 echo " Nota : $putih Com esta ferramenta, você"
 echo "         pode fazer o bot Whatsapp facilmente,"
@@ -61,8 +61,8 @@ read -p "Você quer continuar?[y/n] " lanjut
 if [ "$lanjut" = "n" ]
 then
 sleep 2
-echo "ok mana, a instalação do bot pode ser feita em outro"
-echo "hoje tenha uma boa atividade mana....."
+echo "ok mano ,a instalação do bot pode ser feita em outro"
+echo "hoje tenha uma boa atividade mano....."
 sleep 3
 elif [ "$lanjut" = "y" ]
 then
@@ -71,13 +71,13 @@ echo "Por favor espere um momento....."
 sleep 4
 clear
 sleep 2
-echo "          $merah   instalando o darkbot"
+echo "          $merah   instalando o TrashDkbot"
 sleep 2
 cd $HOME
 pkg update && pkg upgrade
 pkg install git
 pkg install wget
-git clone https://github.com/Darkksinh/kp
+git clone https://github.com/Dakauann/VERIFICAR
 cd kp
 pkg install unzip
 pkg install nodejs
